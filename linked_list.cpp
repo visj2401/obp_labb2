@@ -3,6 +3,11 @@
 //
 #include "linked_list.h"
 
+
+/*
+ *DETTA ÄR JAG FRÅN MIN LAPTOP - GITHUB MANNEN
+ */
+
 //scope operatorn :: talar om för kompilatorn vilken klass medlemmen hör till.
 linked_list::linked_list() {
 	head = nullptr;
@@ -10,7 +15,7 @@ linked_list::linked_list() {
 }
 
 linked_list::linked_list(const linked_list &src) {
-	//tror detta är en copy constructor
+	//detta är en copy constructor
 	linked_list() = src; //funkar detta?
 }
 
